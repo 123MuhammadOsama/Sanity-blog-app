@@ -11,7 +11,7 @@ export default function Navbar() {
         </Link>
         {/* <Link href={"/blogs"} className="bg-accentDarkSecondary px-4 py-1 rounded-lg text-dark ">Blogs</Link> */}
       </nav>
-      <SocialMedia />
+      {/* <SocialMedia /> */}
       <ThemeToggle />
     </header>
   );
