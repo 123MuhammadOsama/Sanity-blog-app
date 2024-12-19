@@ -8,6 +8,7 @@ import { post } from "@/sanity/post";
 import { SanityImageSource } from '@sanity/image-url/lib/types/types';
 import { urlFor } from "@/sanity/lib/image";
 import { author } from '../../../sanity/author';
+import { components } from "@/components/CustomComponent";
 
 
 export const revalidate = 10;
@@ -92,7 +93,7 @@ export default async function page({params:{slug}}:{params:{slug:string}}) {
       ">
         <PortableText 
         value={post.content} 
-        // components={components} 
+        components={components} 
         />
         
       </section>

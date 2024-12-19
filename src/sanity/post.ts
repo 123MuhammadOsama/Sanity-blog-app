@@ -53,7 +53,9 @@ export const post = defineType({
         to:[{
             type:'author'
         }]
-    })
+    }),
+   
+    
 
 
     
